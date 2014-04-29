@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="cecf008a-367c-43d7-a509-9189d3383921" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>Prrrrr</DisplayName>
+    <Description>It is your kitten home alone?</Description>
+    <PublisherDisplayName>Pedro K. Gonzalez</PublisherDisplayName>
+    <Logo>app-storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="index.html">
+	  <m2:VisualElements DisplayName="Prrrrr" Description="It is your kitten home alone?" BackgroundColor="#464646" ForegroundText="light" Square150x150Logo="app-logo.png" Square30x30Logo="app-smalllogo.png">
+		<m2:DefaultTile>
+		  <m2:ShowNameOnTiles>
+			<m2:ShowOn Tile="square150x150Logo" />
+		  </m2:ShowNameOnTiles>
+		</m2:DefaultTile>
+		<m2:SplashScreen Image="splashscreen.png" />
+		
+	  </m2:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+	
+  </Capabilities>
+</Package>
